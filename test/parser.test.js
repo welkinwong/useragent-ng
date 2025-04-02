@@ -109,7 +109,7 @@ describe('useragent', function () {
     it('correctly parses Chromecast', function () {
       var agent = useragent.parse('Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.22.74257');
 
-      assume(agent.os.family).equals('Chromecast');
+      assume(agent.os.family).equals('Chromecast Linux');
       assume(agent.os.major).equals('1');
       assume(agent.os.minor).equals('22');
       assume(agent.os.patch).equals('74257');
