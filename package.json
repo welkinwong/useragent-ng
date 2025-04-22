@@ -56,7 +56,7 @@
   "dependencies": {
     "lru-cache": "^7.14.0",
     "tmp": "^0.2.1",
-    "uap-core": "npm:@welkinwong/uap-core@0.19.4",
+    "uap-core": "npm:@welkinwong/uap-core@0.19.5",
     "yamlparser": "0.0.2"
   }
 }
