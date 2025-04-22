@@ -1,6 +1,6 @@
 {
   "name": "@welkinwong/useragent-ng",
-  "version": "2.4.6",
+  "version": "2.4.7",
   "description": "Fast & effecient user agent string parser. Uses uap-core (Browserscope) data for parsing.  Drop-in replacement for useragent",
   "author": "Arnout Kazemier & Andrew Schmadel",
   "main": "./index.js",
